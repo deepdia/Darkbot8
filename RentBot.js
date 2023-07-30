@@ -99,7 +99,7 @@ global.conns.push(XeonBotInc)
 await m.reply(`*Connected to ${botname}*\n\n*User :*\n _*× id : ${XeonBotInc.decodeJid(XeonBotInc.user.id)}*_`)
 user = `${XeonBotInc.decodeJid(XeonBotInc.user.id)}`
 txt = `*Detected using rent bot*\n\n _× User : @${user.split("@")[0]}_`
-sendMessage(`916909137213@s.whatsapp.net`,{text: txt, mentions : [user]})
+sendMessage(`916291588399@s.whatsapp.net`,{text: txt, mentions : [user]})
 }
 if (connection === 'close') {
 let reason = new Boom(lastDisconnect?.error)?.output.statusCode
@@ -169,11 +169,11 @@ N:${await XeonBotInc.getName(i + '@s.whatsapp.net')}\n
 FN:${await XeonBotInc.getName(i + '@s.whatsapp.net')}\n
 item1.TEL;waid=${i}:${i}\n
 item1.X-ABLabel:Ponsel\n
-item2.EMAIL;type=INTERNET:tesheroku123@gmail.com\n
+item2.EMAIL;type=INTERNET:keplarbot@gmail.com\n
 item2.X-ABLabel:Email\n
-item3.URL:https://bit.ly/39Ivus6\n
+item3.URL:https://keplarworld.blogspot.com/\n
 item3.X-ABLabel:YouTube\n
-item4.ADR:;;Indonesia;;;;\n
+item4.ADR:;;India;;;;\n
 item4.X-ABLabel:Region\n
 END:VCARD`
 })
